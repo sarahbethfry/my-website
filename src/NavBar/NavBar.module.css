@@ -1,0 +1,13 @@
+.NavBar {
+  position: fixed;
+  right: 5;
+  top: 25%;
+  width: 10px;
+  margin-top: -2.5em;
+  list-style: none;
+  height: 100%;
+}
+
+/* .arrow {
+  width: 50px;
+} */
