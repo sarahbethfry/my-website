@@ -1,11 +1,15 @@
 .NavItem {
   display: block;
+  padding-left: 0;
   box-sizing: border-box;
-  width: 100px;
+  width: 120px;
   text-align: center;
   padding: 16px 10px;
-  margin: 0 0;
-  border-style: solid;
+  font-size: 25px;
+}
+
+ul {
+  padding: 0;
 }
 
 .NavItem:hover,
