@@ -10,7 +10,7 @@ const NavBar = (props) => {
       <ul>
         {/* <img src={arrow} alt="down arrow" className={classes.arrow} /> */}
         <NavItem to="about-me"> About Me </NavItem>
-        <NavItem to="resume"> Resume </NavItem>
+        <NavItem to="experiences"> Experiences </NavItem>
         <NavItem to="abilities"> Abilities </NavItem>
         <NavItem to="projects"> Projects </NavItem>
         <NavItem to="contact"> Contact </NavItem>

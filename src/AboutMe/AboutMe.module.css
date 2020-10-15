@@ -1,10 +1,8 @@
 .AboutMe {
   display: flex;
   background-color: #d1f1f3;
-  box-sizing: border-box;
-  max-width: 1280px;
-  padding: 40px 120px;
-  margin-right: 10px;
+  padding: 100px 120px;
+  margin-right: auto;
   margin-left: auto;
 }
 

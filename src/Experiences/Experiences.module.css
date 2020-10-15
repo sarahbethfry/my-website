@@ -1,0 +1,36 @@
+.Experiences {
+  /* max-width: 1280px; */
+  padding: 80px 180px;
+  margin-right: 100px;
+}
+
+p.lead {
+  text-align: center;
+  color: lightpink;
+}
+
+h2 {
+  font-size: 28px;
+  color: lightslategray;
+  text-align: left;
+}
+
+.WorkExperiences {
+  padding-bottom: 30px;
+}
+
+.experiencesRow {
+  display: flex;
+}
+
+.experiencesColLeft {
+  min-width: 200px;
+  padding-right: 100px;
+}
+.experiencesColRight {
+  padding-right: 100px;
+}
+
+.highlights {
+  margin-left: 15px;
+}
