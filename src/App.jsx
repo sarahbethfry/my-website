@@ -4,9 +4,9 @@ import Header from "./Header/Header";
 import NavBar from "./NavBar/NavBar";
 import AboutMe from "./AboutMe/AboutMe";
 import Experiences from "./Experiences/Experiences";
-import Abilities from "./Abilities/Abilities";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
+import Skills from "./Skills/Skills";
 // import Layout from "./Layout/Layout.jsx";
 
 const App = (props) => {
@@ -17,7 +17,7 @@ const App = (props) => {
       <div style={{ height: 200 }} />
       <AboutMe />
       <Experiences />
-      <Abilities />
+      <Skills />
       <Projects />
       <Contact />
     </div>

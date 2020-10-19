@@ -67,7 +67,8 @@ const education = [
     linkLabel: "St. John's",
     program: "Advertising Communications, BS",
     date: "May 2010",
-    description: "ljlj",
+    description:
+      "Obtained 4-year degree in advertising with a concentration in account management. Students learn to analyze competitive activities and consumer trends, develop advertising strategies and coordinate activities among the creative, media and research departments. ",
   },
 ];
 
@@ -82,7 +83,7 @@ const Experiences = (props) => {
         "- la ti da, ksjfiels"
       </p>
       <hr />
-      <h2>Work Experience</h2>
+      <h2 className={classes.h2}>Work Experience</h2>
       {careers.map((career) => (
         <WorkExperience
           company={career.company}
@@ -94,7 +95,7 @@ const Experiences = (props) => {
       ))}
 
       <hr />
-      <h2>Education</h2>
+      <h2 className={classes.h2}>Education</h2>
       {education.map((ed) => (
         <Education
           school={ed.school}
