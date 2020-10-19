@@ -3,10 +3,10 @@ import React, { useEffect } from "react";
 import Header from "./Header/Header";
 import NavBar from "./NavBar/NavBar";
 import AboutMe from "./AboutMe/AboutMe";
-import Resume from "./Resume/Resume";
-import Abilities from "./Abilities/Abilities";
+import Experiences from "./Experiences/Experiences";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
+import Skills from "./Skills/Skills";
 // import Layout from "./Layout/Layout.jsx";
 
 const App = (props) => {
@@ -16,8 +16,8 @@ const App = (props) => {
       <Header />
       <div style={{ height: 200 }} />
       <AboutMe />
-      <Resume />
-      <Abilities />
+      <Experiences />
+      <Skills />
       <Projects />
       <Contact />
     </div>
