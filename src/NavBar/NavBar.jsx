@@ -11,7 +11,7 @@ const NavBar = (props) => {
         {/* <img src={arrow} alt="down arrow" className={classes.arrow} /> */}
         <NavItem to="about-me"> About Me </NavItem>
         <NavItem to="experiences"> Experiences </NavItem>
-        <NavItem to="abilities"> Abilities </NavItem>
+        <NavItem to="skills"> Skills </NavItem>
         <NavItem to="projects"> Projects </NavItem>
         <NavItem to="contact"> Contact </NavItem>
       </ul>

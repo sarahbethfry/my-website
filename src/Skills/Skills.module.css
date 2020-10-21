@@ -9,3 +9,22 @@ p.lead {
   text-align: center;
   color: lightpink;
 }
+
+.row {
+  text-align: left;
+}
+.colLeft {
+  width: 50%;
+}
+.skillsList {
+  list-style: none;
+}
+
+.listItem {
+  display: flex;
+}
+
+.Ratings {
+  display: flex;
+  float: right;
+}
