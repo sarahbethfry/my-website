@@ -14,7 +14,6 @@ ul {
 
 .NavItem:hover,
 .NavItem:active {
-  background-color: blue;
-  border-bottom: 4px solid blueviolet;
+  background-color: pink;
   color: white;
 }

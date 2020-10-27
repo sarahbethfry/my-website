@@ -1,0 +1,38 @@
+.Projects {
+  padding: 80px 180px;
+  margin-right: 100px;
+}
+
+.projectPic {
+  display: none;
+}
+
+.projectFigure {
+  margin: 0;
+  position: relative;
+}
+
+.projectImg {
+  max-width: 100%;
+  background-color: black;
+  display: block;
+  position: relative;
+}
+
+.figCaption {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  width: 100%;
+  text-align: left;
+  opacity: 0;
+  color: black;
+}
+
+.projectFigure:hover .projectImg {
+  opacity: 0.15;
+}
+
+.projectFigure:hover .figCaption {
+  opacity: 1;
+}
