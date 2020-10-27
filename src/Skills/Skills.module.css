@@ -1,11 +1,42 @@
 .Skills {
+  max-width: 1280px;
   background-color: #d1f1f3;
-  padding: 100px 120px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 40px 180px;
+  /* margin-right: 15px;
+  margin-left: 15px; */
 }
 
 p.lead {
   text-align: center;
   color: lightpink;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 80px;
+}
+.column {
+  flex-direction: column;
+  width: 40%;
+  margin: 50px;
+}
+
+.skillsList {
+  list-style: none;
+  border-bottom: 2px solid lightslategray;
+  line-height: 30px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.listItem {
+  display: flex;
+}
+
+.Ratings {
+  float: right;
 }
