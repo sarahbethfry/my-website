@@ -1,27 +1,31 @@
 .Projects {
-  padding: 80px 180px;
+  max-width: 1280px;
+  padding: 40px 180px;
   margin-right: 100px;
 }
 
-.projectPic {
-  display: none;
+.ProjectPic {
+  display: inline-block;
+  max-width: 45%;
+  margin-left: 0px;
+  margin-right: 40px;
 }
 
 .projectFigure {
-  margin: 0;
+  margin: 10px;
   position: relative;
 }
 
 .projectImg {
   max-width: 100%;
-  background-color: black;
+  background-color: pink;
   display: block;
   position: relative;
 }
 
 .figCaption {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 2%;
   width: 100%;
   text-align: left;
@@ -31,6 +35,7 @@
 
 .projectFigure:hover .projectImg {
   opacity: 0.15;
+  background-color: pink;
 }
 
 .projectFigure:hover .figCaption {
