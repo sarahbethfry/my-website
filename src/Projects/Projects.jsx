@@ -26,7 +26,7 @@ const Projects = (props) => {
   return (
     <div id="projects" className={classes.Projects}>
       <h1>Projects</h1>
-      <p>"I did stuff." -someone</p>
+      <p className={classes.lead}>"I did stuff." -someone</p>
       <hr />
       {projectPics.map((pic) => (
         <ProjectPic

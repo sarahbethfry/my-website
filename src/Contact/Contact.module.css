@@ -3,3 +3,27 @@
   background-color: #d1f1f3;
   padding: 40px 180px;
 }
+
+.lead {
+  text-align: center;
+  color: lightpink;
+}
+
+.contactList {
+  list-style: none;
+  margin-left: 50px;
+  padding: 0px;
+}
+
+#contact,
+a {
+  display: block;
+  color: lightslategray;
+  margin-bottom: 20px;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.icon {
+  margin-right: 20px;
+}
