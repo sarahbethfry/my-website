@@ -11,19 +11,41 @@
 
 .contactList {
   list-style: none;
-  margin-left: 50px;
+  margin-left: 50px 0 0 0;
   padding: 0px;
 }
 
 #contact,
-a {
+li {
   display: block;
-  color: lightslategray;
-  margin-bottom: 20px;
-  line-height: 32px;
-  text-decoration: none;
+  position: relative;
+  margin-top: -8px;
+  margin-left: -8px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.wholelistitem {
+  display: flex;
+  align-items: flex-start;
+}
+.wholelistitem:hover {
+  background-color: lightpink;
+  color: white;
 }
 
 .icon {
+  flex-basis: 40px;
+  padding-top: 4px;
   margin-right: 20px;
+}
+
+.wrapper {
+  flex-basis: 95%;
+}
+
+.anchortag {
+  display: block;
+  text-decoration: none;
+  color: lightslategrey;
 }
