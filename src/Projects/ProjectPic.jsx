@@ -1,19 +1,20 @@
 import React from "react";
 import classes from "./Projects.module.css";
 
-const ProjectPic = ({ title, image, description, stack, link }) => {
+const ProjectPic = ({ title, image, description, stack, link, courseLink }) => {
   return (
     <div className={classes.ProjectPic}>
       <figure className={classes.projectFigure}>
-        <img src={image} alt={title} className={classes.projectImg} />
-        <figcaption className={classes.figCaption}>
-          <h4>{title}</h4>
-          <p>{description}</p>
-          <p> {stack}</p>
-          <a href={link} target="_blank" type="button">
-            Check it out
-          </a>
-        </figcaption>
+        <a href={link} target="_blank" type="button">
+          <img src={image} alt={title} className={classes.projectImg} />
+          <figcaption className={classes.figCaption}>
+            <h3>{title}</h3>
+            <a href={courseLink} target="_blank">
+              <p>{description}</p>
+            </a>
+            <p> Stack: {stack}</p>
+          </figcaption>
+        </a>
       </figure>
     </div>
   );

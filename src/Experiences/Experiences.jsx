@@ -79,7 +79,8 @@ const Experiences = (props) => {
       <p className={classes.lead}>
         {" "}
         "A ship in port is safe, but that's not what ships are built for."
-        <br />- Grace Hopper
+        <br />
+        ~Grace Hopper
       </p>
       <hr />
       <h2 className={classes.h2}>Work Experience</h2>
