@@ -120,7 +120,11 @@ const Skills = (props) => {
   return (
     <div id="skills" className={classes.Skills}>
       <h1>Skills</h1>
-      <p className={classes.lead}>"I got skills" -someone</p>
+      <p className={classes.lead}>
+        "You lose your curiosity when you stop learning."
+        <br />
+        ~Katherine Johnson
+      </p>
       <hr />
       <div className={classes.row}>
         <div className={classes.column}>

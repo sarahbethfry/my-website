@@ -3,3 +3,44 @@
   background-color: #d1f1f3;
   padding: 40px 180px;
 }
+
+.contactList {
+  max-width: 50%;
+  list-style: none;
+  margin-top: 24px;
+  margin-left: 30%;
+  padding: 0px;
+}
+
+#contact,
+li {
+  display: block;
+  align-items: center;
+}
+
+.wholelistitem {
+  display: flex;
+  margin: 0px 50px;
+  font-size: 18px;
+}
+.wholelistitem:hover {
+  padding-left: 25px;
+  padding-top: 5px;
+  background-color: lightpink;
+  color: white;
+}
+
+.icon {
+  padding-top: 4px;
+  margin-right: 20px;
+}
+
+.wrapper {
+  flex-basis: 95%;
+}
+
+.anchortag {
+  display: block;
+  text-decoration: none;
+  color: lightslategrey;
+}

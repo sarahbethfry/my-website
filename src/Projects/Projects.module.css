@@ -1,7 +1,11 @@
 .Projects {
   max-width: 1280px;
   padding: 40px 180px;
-  margin-right: 100px;
+}
+
+p.lead {
+  text-align: center;
+  color: lightpink;
 }
 
 .ProjectPic {
@@ -27,10 +31,15 @@
   position: absolute;
   top: 5%;
   left: 2%;
-  width: 100%;
+  width: 85%;
   text-align: left;
   opacity: 0;
   color: black;
+}
+
+.figCaption h3 {
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .projectFigure:hover .projectImg {
@@ -39,5 +48,6 @@
 }
 
 .projectFigure:hover .figCaption {
+  margin-left: 25px;
   opacity: 1;
 }

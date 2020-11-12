@@ -9,15 +9,17 @@ const projectPics = [
     title: "Bandwagon.cool",
     image: bandwagon,
     description:
-      "An interactive map to search tours of your favorite artist or city.",
-    stack: "Python, Javascript, Flask, Jinja, Postgres",
+      "An interactive map to search and save tours of your favorite artist or city.",
+    stack: "Python, Javascript, Flask, Ajax, Jinja, Postgres",
     link: "http://bandwagon.cool/",
   },
   {
     title: "Burger Builder Course",
     image: burgerbuilder,
-    description: "A course in react.",
-    stack: "React, Redux,",
+    description: "A course I followed along to learn React.",
+    courseLink:
+      "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+    stack: "React, Redux, React Routing, Next.js, Jest",
     link: "https://github.com/sarahbethfry/burger-builder",
   },
 ];
@@ -26,17 +28,28 @@ const Projects = (props) => {
   return (
     <div id="projects" className={classes.Projects}>
       <h1>Projects</h1>
-      <p>"I did stuff." -someone</p>
+      <p className={classes.lead}>"I did stuff." -someone</p>
       <hr />
-      {projectPics.map((pic) => (
-        <ProjectPic
-          title={pic.title}
-          image={pic.image}
-          description={pic.description}
-          stack={pic.stack}
-          link={pic.link}
-        />
-      ))}
+      {projectPics.map((pic) =>
+        pic.courseLink ? (
+          <ProjectPic
+            title={pic.title}
+            image={pic.image}
+            description={pic.description}
+            courseLink={pic.courseLink}
+            stack={pic.stack}
+            link={pic.link}
+          />
+        ) : (
+          <ProjectPic
+            title={pic.title}
+            image={pic.image}
+            description={pic.description}
+            stack={pic.stack}
+            link={pic.link}
+          />
+        )
+      )}
     </div>
   );
 };
