@@ -4,12 +4,9 @@
   padding: 40px 180px;
 }
 
-.lead {
-  text-align: center;
-  color: lightpink;
-}
-
 .contactList {
+  margin-left: 30%;
+  max-width: 50%;
   list-style: none;
   margin-left: 50px 0 0 0;
   padding: 0px;
@@ -18,18 +15,18 @@
 #contact,
 li {
   display: block;
-  position: relative;
-  margin-top: -8px;
-  margin-left: -8px;
-  border-radius: 4px;
-  margin-bottom: 24px;
+  margin: 24px, 24px;
+  align-items: center;
 }
 
 .wholelistitem {
   display: flex;
-  align-items: flex-start;
+  box-sizing: border-box;
+  margin-left: 50px;
+  font-size: 18px;
 }
 .wholelistitem:hover {
+  padding-left: 25px;
   background-color: lightpink;
   color: white;
 }
