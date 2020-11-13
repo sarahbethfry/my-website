@@ -14,9 +14,9 @@ const projectPics = [
     link: "http://bandwagon.cool/",
   },
   {
-    title: "Burger Builder Course",
+    title: "Burger Builder Course *THIS IS NOT MY CODE*",
     image: burgerbuilder,
-    description: "A course I followed along to learn React.",
+    description: "A course I followed along with to learn React.",
     courseLink:
       "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
     stack: "React, Redux, React Routing, Next.js, Jest",

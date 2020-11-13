@@ -5,7 +5,7 @@ const ProjectPic = ({ title, image, description, stack, link, courseLink }) => {
   return (
     <div className={classes.ProjectPic}>
       <figure className={classes.projectFigure}>
-        <a href={link} target="_blank" type="button">
+        <a href={link} target="_blank">
           <img src={image} alt={title} className={classes.projectImg} />
           <figcaption className={classes.figCaption}>
             <h3>{title}</h3>
