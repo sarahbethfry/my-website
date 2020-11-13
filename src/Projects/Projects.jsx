@@ -14,7 +14,7 @@ const projectPics = [
     link: "http://bandwagon.cool/",
   },
   {
-    title: "Burger Builder Course *THIS IS NOT MY CODE*",
+    title: "Burger Builder Course",
     image: burgerbuilder,
     description: "A course I followed along with to learn React.",
     courseLink:
@@ -28,7 +28,10 @@ const Projects = (props) => {
   return (
     <div id="projects" className={classes.Projects}>
       <h1>Projects</h1>
-      <p className={classes.lead}>"I did stuff." -someone</p>
+      <p className={classes.lead}>
+        "To create one's world in any of the arts takes courage.” <br /> ~
+        Georgia O'Keeffe
+      </p>
       <hr />
       {projectPics.map((pic) =>
         pic.courseLink ? (
