@@ -16,7 +16,7 @@ const projectPics = [
   {
     title: "Burger Builder Course",
     image: burgerbuilder,
-    description: "A course I followed along to learn React.",
+    description: "A course I followed along with to learn React.",
     courseLink:
       "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
     stack: "React, Redux, React Routing, Next.js, Jest",
@@ -28,7 +28,10 @@ const Projects = (props) => {
   return (
     <div id="projects" className={classes.Projects}>
       <h1>Projects</h1>
-      <p className={classes.lead}>"I did stuff." -someone</p>
+      <p className={classes.lead}>
+        "To create one's world in any of the arts takes courage.” <br /> ~
+        Georgia O'Keeffe
+      </p>
       <hr />
       {projectPics.map((pic) =>
         pic.courseLink ? (
