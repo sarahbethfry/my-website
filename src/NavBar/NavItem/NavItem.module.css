@@ -15,4 +15,6 @@ ul {
 .NavItem:active {
   background-color: pink;
   color: white;
+  cursor: pointer;
+  text-decoration: underline;
 }

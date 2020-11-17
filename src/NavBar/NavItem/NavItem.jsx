@@ -4,8 +4,9 @@ import classes from "./NavItem.module.css";
 
 const NavItem = (props) => {
   return (
-    <li className={classes.NavItem}>
+    <li>
       <Link
+        className={classes.NavItem}
         activeClass="active"
         to={props.to}
         spy={true}
