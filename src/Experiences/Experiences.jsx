@@ -107,7 +107,6 @@ const Experiences = (props) => {
           description={ed.description}
         />
       ))}
-
       <hr />
     </div>
   );

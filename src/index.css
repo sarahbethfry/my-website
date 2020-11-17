@@ -24,3 +24,7 @@ hr {
   width: 300px;
   margin-top: 15px;
 }
+
+li {
+  list-style: none;
+}

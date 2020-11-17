@@ -12,7 +12,7 @@ const WorkExperience = ({
   highlights,
 }) => {
   return (
-    <div className={classes.WorkExperiences}>
+    <div className={classes.experienceSections}>
       <div className={classes.experiencesRow}>
         <div className={classes.experiencesColLeft}>
           <h3>{company}</h3>
@@ -26,9 +26,9 @@ const WorkExperience = ({
               <h3>
                 {title} | {dates}
               </h3>
-              <ul className={classes.highlights}>
+              <ul>
                 {highlights.map((highlight) => (
-                  <li>{highlight}</li>
+                  <li className={classes.highlights}>{highlight}</li>
                 ))}
               </ul>
             </p>
