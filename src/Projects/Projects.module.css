@@ -3,11 +3,6 @@
   padding: 40px 180px;
 }
 
-p.lead {
-  text-align: center;
-  color: lightpink;
-}
-
 .ProjectPic {
   display: inline-block;
   max-width: 45%;

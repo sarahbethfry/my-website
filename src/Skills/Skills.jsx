@@ -120,12 +120,13 @@ const Skills = (props) => {
   return (
     <div id="skills" className={classes.Skills}>
       <h1>Skills</h1>
-      <p className={classes.lead}>
+      <h6>
         "You lose your curiosity when you stop learning."
         <br />
         ~Katherine Johnson
-      </p>
-      <hr />
+        <hr />
+      </h6>
+
       <div className={classes.row}>
         <div className={classes.column}>
           {skillsLeft.map((skillL) => (

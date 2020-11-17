@@ -6,3 +6,7 @@
   background-blend-mode: overlay;
   z-index: 999;
 }
+
+ul {
+  padding: 0;
+}

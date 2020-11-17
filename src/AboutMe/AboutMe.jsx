@@ -9,18 +9,18 @@ const AboutMe = (props) => {
         <h1>About Me</h1>
         <hr />
         <p>
-          Hello! I am Sarah. New to the world of software development. Still
-          finding my expertise but having fun learning and creating along the
-          way. Looking forward to collaborating with people and companies that
-          mirror my passion for building dynamic, clean, user-friendly
-          applications.
+          Hello! I am Sarah. New to the world of software development. March
+          2020 Hackbright Academy grad. Still finding my expertise, but having
+          fun learning and creating along the way. Looking forward to
+          collaborating with people and companies that mirror my passion for
+          building dynamic, clean, user-friendly applications.
         </p>
       </div>
       <div>
         <ProfilePic />
         <div className={classes.details}>
           <h2> Details </h2>
-          <hr />
+          <hr className={classes.detailsLine} />
           <ul className={classes.detailsList}>
             <li>
               <strong>Location:</strong> San Francisco CA
@@ -29,7 +29,7 @@ const AboutMe = (props) => {
               <strong>Nationality:</strong> United States
             </li>
             <li>
-              <strong>Age:</strong> 32
+              <strong>Hobbies:</strong> Running, Golf, Rock Climbing
             </li>
           </ul>
         </div>

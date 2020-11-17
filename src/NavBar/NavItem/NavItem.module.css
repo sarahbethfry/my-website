@@ -7,10 +7,6 @@
   font-size: 25px;
 }
 
-ul {
-  padding: 0;
-}
-
 .NavItem:hover,
 .NavItem:active {
   background-color: pink;
