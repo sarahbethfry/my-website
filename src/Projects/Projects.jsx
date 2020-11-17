@@ -28,11 +28,12 @@ const Projects = (props) => {
   return (
     <div id="projects" className={classes.Projects}>
       <h1>Projects</h1>
-      <p className={classes.lead}>
+      <h6>
         "To create one's world in any of the arts takes courage.” <br /> ~
         Georgia O'Keeffe
-      </p>
-      <hr />
+        <hr />
+      </h6>
+
       {projectPics.map((pic) =>
         pic.courseLink ? (
           <ProjectPic

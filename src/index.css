@@ -3,3 +3,28 @@ body {
   padding: 0;
   font-family: "Roboto Condensed", sans-serif;
 }
+h1 {
+  font-size: 54px;
+  text-align: center;
+  color: lightslategray;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: lightslategray;
+}
+
+h6 {
+  text-align: center;
+  color: lightpink;
+  font-size: 18px;
+}
+
+hr {
+  width: 300px;
+  margin-top: 15px;
+}
+
+li {
+  list-style: none;
+}

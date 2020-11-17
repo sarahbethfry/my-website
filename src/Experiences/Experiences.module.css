@@ -1,11 +1,5 @@
 .Experiences {
-  max-width: 1280px;
   padding: 80px 180px;
-}
-
-.lead {
-  text-align: center;
-  color: lightpink;
 }
 
 .h2 {
@@ -23,13 +17,13 @@
 }
 
 .experiencesColLeft {
-  min-width: 200px;
-  padding-right: 100px;
+  flex: 0 0 300px;
 }
 .experiencesColRight {
   padding-right: 100px;
 }
 
 .highlights {
-  margin-left: 15px;
+  list-style: disc;
+  margin: 0;
 }

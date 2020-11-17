@@ -4,11 +4,6 @@
   padding: 40px 180px;
 }
 
-p.lead {
-  text-align: center;
-  color: lightpink;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;

@@ -76,13 +76,13 @@ const Experiences = (props) => {
   return (
     <div id="experiences" className={classes.Experiences}>
       <h1>Experiences</h1>
-      <p className={classes.lead}>
-        {" "}
+      <h6>
         "A ship in port is safe, but that's not what ships are built for."
         <br />
         ~Grace Hopper
-      </p>
-      <hr />
+        <hr />
+      </h6>
+
       <h2 className={classes.h2}>Work Experience</h2>
       {careers.map((career) => (
         <WorkExperience
@@ -107,7 +107,6 @@ const Experiences = (props) => {
           description={ed.description}
         />
       ))}
-
       <hr />
     </div>
   );
