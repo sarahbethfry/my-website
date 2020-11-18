@@ -5,11 +5,11 @@ const ProjectPic = ({ title, image, description, stack, link, courseLink }) => {
   return (
     <div className={classes.ProjectPic}>
       <figure className={classes.projectFigure}>
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noopener noreferrer">
           <img src={image} alt={title} className={classes.projectImg} />
           <figcaption className={classes.figCaption}>
             <h3>{title}</h3>
-            <a href={courseLink} target="_blank">
+            <a href={courseLink} target="_blank" rel="noopener noreferrer">
               <p>{description}</p>
             </a>
             <p> Stack: {stack}</p>

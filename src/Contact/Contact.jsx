@@ -18,6 +18,7 @@ const Contact = (props) => {
           <a
             href="https://github.com/sarahbethfry"
             target="_blank"
+            rel="noopener noreferrer"
             className={classes.anchortag}
           >
             <div className={classes.wholelistitem}>
@@ -38,6 +39,7 @@ const Contact = (props) => {
           <a
             href="https://www.linkedin.com/in/sarah-fry-29a74419/"
             target="_blank"
+            rel="noopener noreferrer"
             className={classes.anchortag}
           >
             <div className={classes.wholelistitem}>
@@ -58,6 +60,7 @@ const Contact = (props) => {
           <a
             href="https://open.spotify.com/user/sarahbeth0610?si=i5SC9wNnSFmvWbtuHd7NyQ"
             target="_blank"
+            rel="noopener noreferrer"
             className={classes.anchortag}
           >
             <div className={classes.wholelistitem}>
