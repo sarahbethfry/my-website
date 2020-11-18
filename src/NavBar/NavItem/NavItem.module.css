@@ -9,7 +9,7 @@
 
 .NavItem:hover,
 .NavItem:active {
-  background-color: pink;
+  background-color: lightpink;
   color: white;
   cursor: pointer;
   text-decoration: underline;
