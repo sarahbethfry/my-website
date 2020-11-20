@@ -1,7 +1,3 @@
-.Header {
-  height: 812px;
-}
-
 .ToggleArrow {
   display: none;
 }
@@ -16,7 +12,11 @@
     text-align: center;
     z-index: 6;
   }
+  .Header {
+    height: 812px;
+  }
 }
+
 .ArrowButton {
   background-color: white;
   border: none;
