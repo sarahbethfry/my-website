@@ -132,7 +132,7 @@ const Skills = (props) => {
           {skillsLeft.map((skillL) => (
             <div>
               <h2>{skillL.name}</h2>
-              <hr />
+              <hr className={classes.skillNameLine} />
               {skillL.type.map((tL) => (
                 <div>
                   <ul className={classes.skillsList}>
@@ -152,7 +152,7 @@ const Skills = (props) => {
           {skillsRight.map((skillR) => (
             <div>
               <h2>{skillR.name}</h2>
-              <hr />
+              <hr className={classes.skillNameLine} />
               {skillR.type.map((tR) => (
                 <div>
                   <ul className={classes.skillsList}>

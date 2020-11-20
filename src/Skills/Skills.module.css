@@ -17,6 +17,10 @@
   width: 40%;
   margin: 50px;
 }
+.skillNameLine {
+  width: 200px;
+  margin: 0px;
+}
 
 .skillsList {
   list-style: none;

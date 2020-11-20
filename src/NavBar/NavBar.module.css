@@ -1,10 +1,25 @@
-.NavBar {
+.NavBar.open {
   position: fixed;
   right: 5%;
-  top: 240px;
   width: 120px;
-  background-blend-mode: overlay;
   z-index: 999;
+  bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  .NavBar {
+    position: absolute;
+    top: 46%;
+    right: 55%;
+    width: 50px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .NavBar.close {
+    transform: translateX(-500%);
+  }
+  .NavBar.open {
+    transform: translateX(0);
+  }
 }
 
 ul {

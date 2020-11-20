@@ -1,4 +1,13 @@
 .vinylImg {
   width: 100%;
-  display: flex;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .vinylImg {
+    bottom: 200px;
+    left: 0px;
+    right: 20px;
+    top: 0px;
+  }
 }
