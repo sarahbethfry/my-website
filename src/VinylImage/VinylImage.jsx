@@ -4,8 +4,7 @@ import classes from "./VinylImage.module.css";
 import vinylImage from "../Assets/vinyl.jpg";
 
 const VinylImage = (props) => (
-  <div className={classes.test}>
-    {console.log(classes)}
+  <div>
     <img src={vinylImage} alt={""} className={classes.vinylImg} />
   </div>
 );

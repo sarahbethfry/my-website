@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./Header/Header";
+
 import NavBar from "./NavBar/NavBar";
 import AboutMe from "./AboutMe/AboutMe";
 import Experiences from "./Experiences/Experiences";
@@ -11,8 +12,9 @@ import Skills from "./Skills/Skills";
 const App = (props) => {
   return (
     <div>
-      <NavBar />
       <Header />
+
+      <NavBar />
       <AboutMe />
       <Experiences />
       <Skills />
