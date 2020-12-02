@@ -131,6 +131,7 @@ const Skills = (props) => {
         <div className={classes.column}>
           {skillsLeft.map((skillL) => (
             <div>
+              <br />
               <h2>{skillL.name}</h2>
               <hr className={classes.skillNameLine} />
               {skillL.type.map((tL) => (

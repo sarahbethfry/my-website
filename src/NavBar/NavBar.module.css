@@ -18,7 +18,7 @@
     transform: translateX(-600%);
   }
   .NavBar.open {
-    transform: translateX(0);
+    transform: translateY(20%);
   }
 }
 
