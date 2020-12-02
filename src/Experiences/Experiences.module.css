@@ -27,3 +27,16 @@
   list-style: disc;
   margin: 0;
 }
+
+@media (max-width: 767px) {
+  .Experiences {
+    padding: 60px 0px 0 10px;
+    width: 100%;
+  }
+  .experiencesRow {
+    display: block;
+  }
+  .experiencesColRight {
+    padding-right: 5px;
+  }
+}

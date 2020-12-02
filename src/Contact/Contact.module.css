@@ -1,9 +1,7 @@
 .Contact {
-  max-width: 1280px;
   background-color: #d1f1f3;
   padding: 40px 180px;
 }
-
 .contactList {
   max-width: 50%;
   list-style: none;
@@ -12,6 +10,17 @@
   padding: 0px;
   display: block;
   align-items: center;
+}
+
+@media (max-width: 767px) {
+  .Contact {
+    padding: 60px 0px;
+  }
+  .contactList {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+  }
 }
 
 .wholelistitem {

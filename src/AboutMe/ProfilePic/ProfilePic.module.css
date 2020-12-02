@@ -2,3 +2,10 @@
   padding: 30px 140px;
   vertical-align: middle;
 }
+@media (max-width: 767px) {
+  .ProfilePic {
+    width: 70%;
+    height: 250px;
+    padding: 20px 0 0 30px;
+  }
+}
