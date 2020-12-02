@@ -38,14 +38,18 @@
 }
 @media (max-width: 767px) {
   .Skills {
-    padding: 60px 20px;
+    padding: 60px 0px;
   }
   .row {
-    text-align: center;
+    text-align: left;
     display: block;
-    margin-top: 20px;
+    margin: 0;
   }
   .column {
-    width: 50%;
+    width: 100%;
+    margin: 0 0 0 20px;
+  }
+  .Skills h2 {
+    text-align: left;
   }
 }
