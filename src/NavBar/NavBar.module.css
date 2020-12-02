@@ -1,9 +1,9 @@
-.NavBar.open {
+.NavBar {
   position: fixed;
   right: 5%;
   width: 120px;
   z-index: 999;
-  bottom: 60px;
+  bottom: 80px;
 }
 
 @media (max-width: 767px) {
@@ -15,7 +15,7 @@
     transition: transform 0.3s ease-in-out;
   }
   .NavBar.close {
-    transform: translateX(-500%);
+    transform: translateX(-600%);
   }
   .NavBar.open {
     transform: translateX(0);

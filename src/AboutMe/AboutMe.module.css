@@ -26,3 +26,11 @@
   line-height: 1.64;
   font-size: 18px;
 }
+
+@media (max-width: 767px) {
+  .AboutMe {
+    display: block;
+    padding: 60px 0px;
+    width: 100%;
+  }
+}

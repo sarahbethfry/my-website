@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Roboto Condensed", sans-serif;
 }
+
 h1 {
   font-size: 54px;
   text-align: center;
@@ -27,4 +28,10 @@ hr {
 
 li {
   list-style: none;
+}
+
+@media (max-width: 767px) {
+  hr {
+    width: 100px;
+  }
 }

@@ -1,5 +1,4 @@
 .Projects {
-  max-width: 1280px;
   padding: 40px 180px;
 }
 
@@ -46,4 +45,13 @@
 .projectFigure:hover .figCaption {
   margin-left: 25px;
   opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .Projects {
+    padding: 60px 20px;
+  }
+  .ProjectPic {
+    margin-right: 15px;
+  }
 }
